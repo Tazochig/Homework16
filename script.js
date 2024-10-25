@@ -53,11 +53,11 @@ function calculator(a, b, operator) {
 }
 7
 function celsiusToFahrenheit(celsius) {
-    // პირობა ვერ გავიგე
+   return celsius * 9 / 5 + 32
 }
 8
 function findMax(a, b, c) {
-    // ვერ გავაკეთე
+  return Math.max(a, b, c);
 }
 9
 function checkSign(num) {
